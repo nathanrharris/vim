@@ -21,3 +21,5 @@ if has("autocmd")
 endif
 
 syntax on
+
+autocmd FileType php set omnifunc=phpcomplete#CompletePHP
