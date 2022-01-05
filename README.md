@@ -5,7 +5,7 @@ Initial setup:
 
 1. Clone repo into ~/Vim
 2. Add link to .vimrc: ```ln -s ~/Vim/.vimrc ~/.vimrc```
-3. Add link to .vim: ```ln -x .vim ~/Vim/.vim```
+3. Add link to .vim: ```ln -x ~/.vim ~/Vim/.vim```
 
 Adding a plugin:
 
