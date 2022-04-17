@@ -23,3 +23,14 @@ endif
 syntax on
 
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
+
+augroup remember_folds
+  autocmd!
+  autocmd BufWinLeave * mkview
+  autocmd BufWinEnter * silent! loadview
+augroup END
+
+hi Folded ctermbg=235
+hi Folded ctermfg=242
+
+set laststatus=2
