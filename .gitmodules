@@ -13,6 +13,3 @@
 [submodule ".vim/pack/vendor/start/mustache"]
 	path = .vim/pack/vendor/start/mustache
 	url = https://github.com/mustache/vim-mustache-handlebars.git
-[submodule ".vim/pack/vendor/start/vim-twig"]
-	path = .vim/pack/vendor/start/vim-twig
-	url = git@github.com:evidens/vim-twig.git
