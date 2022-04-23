@@ -19,6 +19,7 @@ if has("autocmd")
     autocmd BufRead,BufNewFile *.inc set filetype=php
     autocmd BufRead,BufNewFile *.profile set filetype=php
     autocmd BufRead,BufNewFile *.view set filetype=php
+    autocmd BufRead,BufNewFile *.html.twig set filetype=html.twig
   augroup END
 endif
 
